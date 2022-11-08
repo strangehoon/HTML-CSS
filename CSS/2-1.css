@@ -1,0 +1,27 @@
+/*바디 선택*/
+body {
+    font-family: "NanumGothic?ver=1"; 
+}
+
+/*클래스 선택*/
+.male {
+    color : blue;
+}
+
+.female {
+    color : red;
+}
+
+/*태그 선택*/
+ul {
+    list-style:none;
+}
+
+/*아이디 선택*/
+#ceo {
+    background-color: #dfe0e1;
+}
+
+
+
+
