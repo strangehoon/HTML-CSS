@@ -1,0 +1,32 @@
+.flex-container {
+    border : 4px solid black;
+    height: 300px;
+    background-color: #1498af;
+
+    display: flex;
+    /* justify-content : flex-start; 주축 처음 정렬*/
+    /* justify-content : flex-end; 주출 끝 정렬*/
+    justify-content: center;
+    
+    align-items: center; /*교차축 시작 정렬*/
+
+    flex-direction: row; /*기본값*/
+
+    flex-wrap: nowrap; /*기본값*/
+    /* flex-wrap: wrap; 한줄 or 여러줄*/
+}
+
+.item {
+    width : 30px;
+    height : 30px;
+    border : 4px solid black;
+    background-color: #e43681;
+    margin : 5px; 
+
+    flex : 1; /*비율 크기*/
+
+}
+
+#item-4 {
+    order : 1;
+}
